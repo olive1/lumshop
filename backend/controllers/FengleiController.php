@@ -15,7 +15,7 @@ use app\models\UserForm;
 use yii\web\NotFoundHttpException;
 
 
-class PublicController extends Controller{
+class FengleiController extends Controller{
 
     public function  actionIndex(){
 
