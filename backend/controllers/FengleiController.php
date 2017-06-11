@@ -1,7 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Administrator
+ * 商城分类控制器
+ * User: 卢猛
  * Date: 2015/1/29
  * Time: 16:11
  */
@@ -18,9 +18,7 @@ use yii\web\NotFoundHttpException;
 class FengleiController extends Controller{
 
     public function  actionIndex(){
-
-       $user=User::find(1)->one();
-        echo $user->user."login";
+		//
     }
 	
 	//增加test方法
